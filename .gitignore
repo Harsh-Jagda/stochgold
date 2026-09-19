@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local runtime state (created while the bot runs)
+bot_state.json
+trade_log*.csv
+logs/
+
+# Historical data (pulled from MT5, too large for git)
+data/
+
+# OS
+.DS_Store
+Thumbs.db
